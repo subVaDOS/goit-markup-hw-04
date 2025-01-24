@@ -77,7 +77,7 @@ img {
   background: #ffffff;
   border-bottom: solid 1px #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.016), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   /* position: fixed; */
   position: sticky;
   top: 0;
@@ -373,7 +373,7 @@ git status .addr-s-link:hover,
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   margin-top: 8px;
 }
 .lishka-icon {
@@ -452,7 +452,7 @@ git status .addr-s-link:hover,
 }
 .ftr-div-flex {
   display: flex;
-
+  align-items: baseline;
   align-items: center;
 }
 
@@ -485,10 +485,10 @@ git status .addr-s-link:hover,
   color: #f4f4fd;
   max-width: 264px;
 }
-
+.ftr-container {
+  margin-right: 120px;
+}
 .ftr-soc-container {
-  margin-left: 24px;
-  align-items: center;
 }
 .p-ftr {
   font-weight: 500;
@@ -497,4 +497,7 @@ git status .addr-s-link:hover,
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.ftr-social {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
