@@ -152,7 +152,7 @@ img {
 
 .naviget-link:hover,
 .naviget-link:focus,
-.addr-s-link:hover,
+git status .addr-s-link:hover,
 .addr-s-link:focus,
 .naviget-link.current {
   color: #404bbf;
