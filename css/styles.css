@@ -375,7 +375,7 @@ git status .addr-s-link:hover,
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  gap: 24px;
   margin-top: 8px;
 }
 .lishka-icon {
@@ -389,6 +389,12 @@ git status .addr-s-link:hover,
   fill: #f4f4fd;
   width: 40px;
   height: 40px;
+}
+.href-social-icon:hover,
+.href-social-icon:focus {
+  background-color: #404bbf;
+}
+.icon-svg {
 }
 /* FOUR SECTION */
 .portfolio {
