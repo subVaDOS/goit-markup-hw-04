@@ -196,7 +196,7 @@ git status .addr-s-link:hover,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(./images/people-office.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 1440px;
@@ -340,6 +340,8 @@ git status .addr-s-link:hover,
   left: 0;
   padding: 40px 32px;
   font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   background-color: #4d5ae5;
   border-radius: 0px;
   width: 100%;
@@ -506,6 +508,17 @@ git status .addr-s-link:hover,
   color: #ffffff;
   margin-bottom: 16px;
 }
+.social-list-ftr {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
 .ftr-social {
+  /* background-color: #31d0aa; */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ftr-social:hover,
+.ftr-social:focus {
+  background-color: #31d0aa;
 }
